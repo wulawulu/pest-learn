@@ -3,6 +3,10 @@ name = "csv-tool"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "ch2"
+path = "src/ch2/ch2.rs"
+
 [dependencies]
 pest = "2.8.0"
 pest_derive = "2.8.0"
