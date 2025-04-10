@@ -7,6 +7,15 @@ edition = "2024"
 name = "ch2"
 path = "src/ch2/ch2.rs"
 
+[[bin]]
+name = "ini"
+path = "src/ch2_1/ini.rs"
+
+[[bin]]
+name = "json"
+path = "src/ch3/json.rs"
+
+
 [dependencies]
 pest = "2.8.0"
 pest_derive = "2.8.0"
